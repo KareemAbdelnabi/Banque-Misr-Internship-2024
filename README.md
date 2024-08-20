@@ -2,4 +2,4 @@
 
 ## Overview:
 
-This is the repository for the Banque-Misr-Internship-2024.
+This is the repository for the Banque-Misr-Internship-2024 Assignments.
