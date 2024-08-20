@@ -1,0 +1,33 @@
+.main-content {
+    background-color: skyblue;
+}
+
+h1 {
+    color: green;
+}
+
+h2{
+    color: orange;
+}
+.main-content-headers {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-align: center; 
+}
+
+h2 {
+    text-align: center; 
+}
+
+table {
+    width: 500px;
+    height: 100px;
+}
+
+.iframe-container{
+    display: flex;
+    justify-content: center; 
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
