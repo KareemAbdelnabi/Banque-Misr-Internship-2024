@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Hero section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #418bff;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .highlight {
+    color: #ffb400;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #418bff;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+/* About Us section */
+.about-us {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.about-us .text-content {
+    max-width: 60%;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-us-image {
+    max-width: 35%;
+}
+
+.about-us-image img {
+    width: 100%;
+}
